@@ -19,10 +19,10 @@ Built with Python and [pygame](https://www.pygame.org/).
 - Python 3
 - [pygame](https://www.pygame.org/)
 
-Install pygame:
+Install dependencies:
 
 ```
-pip install pygame
+pip install -r requirements.txt
 ```
 
 ## Run
