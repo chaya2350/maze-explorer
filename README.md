@@ -4,6 +4,9 @@ A random maze generator with an AI agent that visualizes how it searches for the
 
 Built with Python and [pygame](https://www.pygame.org/).
 
+![Menu screenshot](screenshot-menu.png)
+![Search visualization screenshot](screenshot-search.png)
+
 ## Features
 
 - **Maze generation**: Recursive Backtracker algorithm, animated cell-by-cell as it carves the maze.
