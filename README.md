@@ -31,6 +31,17 @@ pip install -r requirements.txt
 py maze.py
 ```
 
+## Build a standalone .exe (optional)
+
+You can package the game into a single Windows executable that runs without Python installed:
+
+```
+py -m pip install pyinstaller
+py -m PyInstaller --onefile --windowed --name MazeExplorer maze.py
+```
+
+The result will be at `dist\MazeExplorer.exe`.
+
 ## Controls
 
 | Key / Action              | Effect                                   |
